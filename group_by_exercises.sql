@@ -23,3 +23,4 @@ where first_name = 'irena'
    or first_name = 'maya'
    group by gender
    ORDER BY COUNT(*);
+
