@@ -45,3 +45,7 @@ select first_name, last_name
 from employees
 where last_name like '%q%'
  and last_name not like '%qu%';
+
+SELECT COUNT(first_name)
+FROM employees
+WHERE first_name NOT LIKE '%a%';
